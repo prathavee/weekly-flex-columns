@@ -1,0 +1,103 @@
+body {
+  background: #f2f2f2;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  display: grid;
+    gap: 5px;
+    grid-auto-flow: column;
+}
+
+.timeline-grid-1 {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  min-height: 400px;
+}
+.timeline-grid {
+  display: grid;
+  gap: 5px;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  min-height: 400px;  
+  grid-template-columns: repeat(8, 1fr); /* Here you can modify the column size as per your requirment, I just mention 8 for a demo purpose only */
+}
+
+.column {
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  background: #ffffff;
+}
+.timeline-grid-1 .column {
+  background: #DBE1E2;
+}
+
+.bars {
+  display: grid;
+  grid-template-columns: repeat(16, 0.5fr); /* I have devided the bas with 0.5 value do we can use the bar with 2.5, 3.5 same like value and 16 is the just duoble number of column */
+  grid-auto-rows: 60px;
+  margin-top: 10px;
+  width: 100%;
+  gap: 5px;
+  top: 70px;
+  position: absolute;
+}
+
+.bar {
+  grid-column-start: 1;
+  background-color: #3e4255;
+  color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  min-width: 0px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.bar-btn {
+  display: inline-flex;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.span-1 {
+  grid-column-end: span 1;
+}
+.span-2 {
+  grid-column-end: span 2;
+}
+.span-3 {
+  grid-column-end: span 3;
+}
+.span-4 {
+  grid-column-end: span 4;
+}
+.span-5 {
+  grid-column-end: span 5;
+}
+.span-6 {
+  grid-column-end: span 6;
+}
+.span-7 {
+  grid-column-end: span 7;
+}
