@@ -9,6 +9,15 @@ A responsive layout built with **CSS Flexbox** to display weekly columns with eq
 - Simple and lightweight CSS structure
 - Easy to customize for different use cases
 
+
+🛠️ Customization
+**Adjust .bars and .timeline-grid styles for different event types or priorities.**
+**Increase the ".span-1" class as per your needed column.**
+**Use JavaScript to dynamically position bars based on time.**
+
+Add tooltips or hover effects for more interactivity.
+
+
 ## 📦 Installation
 Clone the repository:
 ```bash
