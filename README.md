@@ -21,4 +21,4 @@ Add tooltips or hover effects for more interactivity.
 ## 📦 Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/weekly-flex-columns.git
+git clone [https://github.com/your-username/weekly-flex-columns.git](https://github.com/prathavee/weekly-flex-columns)
